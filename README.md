@@ -14,6 +14,8 @@
 	    
             var UserorderList = {
 		Condition : {	order_sn: '',order_status: '',page:1,page_size:20},  //AJAX传递值
+		
+		
 		SuccessAction : function(data){html += '<p></p>'; $('.p').html(html);//替换页面。
 		},
 	    };
