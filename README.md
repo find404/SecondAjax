@@ -19,3 +19,12 @@
 		SuccessAction : function(data){html += '<p></p>'; $('.p').html(html);//替换页面。
 		},
 	    };
+
+
+
+        //初始化
+  	SecondAjax();
+  
+  
+        //页面指定调用，指定ajax的时候，传入，之前定义好的key，就可以了。
+  	SecondAjax('0');
