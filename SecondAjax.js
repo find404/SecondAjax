@@ -43,10 +43,10 @@
   
   
   
-  //页面调用部分
+  	//页面调用部分
           
 	var VariousSet= new Array('/User/orderList');
-          //定义数据集合
+         //定义数据集合
   
   
 	var UserorderList = {
@@ -68,10 +68,10 @@
 	};  
 
         //初始化
-  				SecondAjax();
+  	SecondAjax();
   
   
-          //页面指定调用，指定ajax的时候，传入，之前定义好的key，就可以了。
-  				SecondAjax('0');
+        //页面指定调用，指定ajax的时候，传入，之前定义好的key，就可以了。
+  	SecondAjax('0');
   
   
